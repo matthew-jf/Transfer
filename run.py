@@ -78,7 +78,8 @@ tables = (
     'bi_view_media_component_language_version_log',
     'bi_view_media_language',
     'bi_view_youtube_channel',
-    'bi_view_youtube_video'
+    'bi_view_youtube_video',
+    'bi_country'
 )
 for i in range(len(tables)):
     qry = cnx.query(
